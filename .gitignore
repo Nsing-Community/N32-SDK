@@ -1,0 +1,28 @@
+# ========================
+# Build artifacts 构建产物（编译后自动生成，无需入库）
+# 适用于所有示例/应用工程（projects/n32g45x_EVAL/examples/*/ 等）
+# ========================
+
+# ---- Keil MDK-ARM ----
+# 目标文件与链接产物（.o / .axf / .hex 等）
+**/MDK-ARM/Objects/
+# 编译/链接清单（.map / .lst 等）
+**/MDK-ARM/Listings/
+# 生成的烧录镜像（.bin）
+**/MDK-ARM/bin/
+# 用户 GUI 布局文件（如 LedBlink.uvguix.Admin）
+*.uvguix.*
+
+# ---- IAR EWARM ----
+# 编译输出（Exe / Obj / List）
+**/EWARM/Debug/
+# 调试会话生成文件（.cspy / .xcl 等）
+**/EWARM/settings/
+# 依赖文件（IAR / MDK 生成）
+*.dep
+# IAR 工程附加文件（工具自动生成）
+*.ewt
+
+# ---- GCC + Makefile ----
+# Makefile 构建输出（如 build/output.hex）
+projects/**/GCC/build/
