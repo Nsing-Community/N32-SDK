@@ -60,7 +60,7 @@ N32G45x-SDK/
 1. **克隆仓库**（本仓库不含 submodule，直接克隆即可）
 
 ```bash
-git clone https://github.com/Nsing-Community/N32-SDK.git
+git clone https://github.com/Nsing-Community/N32G45x-SDK.git
 ```
 
 2. **获取最新更新**
@@ -149,7 +149,7 @@ N32G45x-SDK/
 1. **Clone the repository** (this repository contains no submodule, a plain clone is sufficient)
 
 ```bash
-git clone https://github.com/Nsing-Community/N32-SDK.git
+git clone https://github.com/Nsing-Community/N32G45x-SDK.git
 ```
 
 2. **Get the latest updates**
